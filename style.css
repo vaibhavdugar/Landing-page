@@ -1,0 +1,450 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Exo", sans-serif;
+}
+
+.background {
+  background-image: url("images/bg\ 1.png");
+  background-size: 1500px;
+  z-index: 1;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 140px;
+}
+
+.navbar img {
+  width: 186px;
+  height: 125px;
+}
+
+.nav-links ul {
+  display: flex;
+}
+
+.nav-links ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+/* Section-1 */
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 140px;
+}
+
+.section-about .about {
+  color: #af3af9;
+}
+
+.section-about .content {
+  color: #f3f3f3;
+}
+
+.section1 .bg h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+  width: 600px;
+  font-family: "Oswald", sans-serif;
+  text-shadow: 3px -2px #af3af9;
+}
+
+.bg h5 {
+  font-size: 25px;
+  height: 100px;
+  width: 590px;
+}
+
+.btn {
+  margin-top: 25px;
+  border-radius: 15px;
+  border: 5px solid rgb(255, 212, 155);
+  font-size: 15px;
+  padding: 10px;
+  background-color: #be63f7;
+  width: 150px;
+  color: white;
+}
+
+.section1 .image img {
+  width: 500px;
+  height: 500px;
+}
+
+/* About Section */
+.section-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 140px;
+  background: radial-gradient(50% 50% at 50% 50%, #33084e 0%, #1a0a24 100%);
+  color: white;
+}
+
+.section-about h5 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.about {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.features {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.content {
+  font-weight: 400;
+  font-size: 18px;
+  width: 811px;
+  height: 105px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  width: 365.33px;
+  height: 457px;
+  padding: 0px 20px;
+}
+
+.cards img {
+  padding: 0px 15px;
+}
+
+/* How to play */
+.play {
+  padding: 0px 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #311246;
+  color: #f3f3f3;
+}
+
+.text {
+  position: relative;
+  top: -130px;
+}
+
+.play h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.play h5 {
+  width: 640.68px;
+  height: 46px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+}
+
+.play .numbers {
+  display: flex;
+}
+
+.card-number {
+  width: 165px;
+  height: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 50px;
+  margin: 0px 30px;
+  margin-top: 40px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options span {
+  margin-top: 15px;
+}
+
+.one {
+  background-color: #ed3e0f;
+  box-shadow: 12px -12px #ed3e0f;
+}
+
+.two {
+  background: #1eed93;
+  box-shadow: 12px -12px #1eed93;
+}
+
+.three {
+  background: #0f6ded;
+  box-shadow: 12px -12px #0f6ded;
+}
+
+.four {
+  background: #af3af9;
+  box-shadow: 12px -12px #af3af9;
+}
+
+/* Game Interface */
+.game-interface {
+  padding: 90px 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(50% 50% at 50% 50%, #33084e 0%, #1a0a24 100%);
+  z-index: -3;
+}
+
+.text1 {
+  position: relative;
+}
+
+.interface,
+.img3,
+.img2,
+.img1 {
+  z-index: 1;
+}
+
+.text1 .circle-bg {
+  width: 645px;
+  height: 645px;
+  position: absolute;
+  right: -150px;
+  top: -23px;
+  z-index: 0;
+}
+
+.game-interface h5 {
+  font-size: 20px;
+  color: #af3af9;
+  text-align: center;
+}
+
+.game-interface h1 {
+  font-size: 35px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+}
+
+.interface {
+  display: flex;
+  align-items: center;
+}
+
+.interface img {
+  margin: 30px 15px;
+}
+
+.img1 {
+  width: 266px;
+  height: 513px;
+}
+
+.img2 {
+  width: 266px;
+  height: 513px;
+}
+
+.img3 {
+  width: 240px;
+  height: 465px;
+}
+
+.img4 {
+  width: 231px;
+  height: 447px;
+  z-index: 0;
+}
+
+/* Download App */
+
+.download {
+  padding: 60px 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(images/Group\ 6.png);
+}
+
+.download h1 {
+  font-size: 45px;
+  color: white;
+}
+
+.download .line {
+  width: 315px;
+  margin: 20px 0px;
+  border: 3px solid #ca5fff;
+}
+
+.download-source img {
+  width: 200px;
+  height: 60px;
+  padding: 7px 0px;
+}
+
+.barcode {
+  margin-left: 40px;
+}
+
+.barcode img {
+  height: 135px;
+  width: 135px;
+}
+
+.scanner {
+  display: flex;
+  align-items: center;
+}
+
+.download .dice-img img {
+  width: 379px;
+  height: 290px;
+}
+
+/* Frequently Asked Questions */
+
+.faqs {
+  padding: 90px 140px;
+  background: #310e44;
+  color: white;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headings h5 {
+  width: 700.22px;
+  height: 54.59px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.headings h1 {
+  font-size: 45px;
+  margin: 10px 0px;
+}
+
+.headings h3 {
+  font-size: 20px;
+}
+
+.faq-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questions .box {
+  display: flex;
+  border: 2px solid rgb(20, 79, 121);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+  height: 50px;
+  width: 550px;
+  font-size: 20px;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.box img {
+  height: 30px;
+  width: 30px;
+}
+
+.help {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Contact Details */
+
+.contact-details {
+  background: #07000a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 140px;
+}
+
+.socials {
+  width: 205px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.socials p {
+  margin: 25px 0px;
+}
+
+.contact {
+  font-size: 16px;
+}
+
+.contact h3 {
+  font-size: 25px;
+  margin-bottom: 45px;
+}
+
+.work-details h4 {
+  font-size: 16px;
+  color: #ca5fff;
+}
+
+.work-details {
+  height: 60px;
+}
+
+.other-links {
+  font-size: 16px;
+  align-items: center;
+  /* line-height: 30px; */
+}
+
+.other-links h3 {
+  font-size: 25px;
+  margin-bottom: 55px;
+}
+
+.other-links p {
+  font-size: 16px;
+  padding: 5px;
+}
+
+/* Copyright */
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 140px;
+  align-items: center;
+  background: #310e44;
+  color: #aaa6b9;
+  font-size: 14px;
+  height: 71px;
+}
